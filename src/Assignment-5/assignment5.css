@@ -5,3 +5,52 @@
 width: 100%;
 height: 100%;
 }
+
+.body{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+    width:60%;
+    margin:20%;
+    align-items:center;
+    padding:25px 15px;
+    background:lightgrey;
+  }
+  
+   .card{
+  /*   position:relative; */
+    display:flex;
+    flex-direction:row;
+    margin:25px;
+    align-items:center;
+    background:white;
+    border-radius:10px;
+    max-height: 350px;
+  }
+ 
+  .image{
+    position:relative;
+    height:360px;
+    width:400px;
+    
+    
+    /* display:flex;
+    justify-content:center; */
+  }
+  .picture{
+    background:#94C973;
+    border-radius: 10px;
+    max-height: 350px;
+  }
+  .text{
+    padding:25px;
+  }
+  
+  a{
+    background:#94C973;
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    border-radius:25px;
+  }
+  
